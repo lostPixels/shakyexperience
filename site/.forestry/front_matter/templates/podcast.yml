@@ -36,4 +36,4 @@ fields:
   type: boolean
   label: Featured on Homepage?
 pages:
-- podcasts/test-podcast.md
+- site/content/podcasts/test-podcast.md
