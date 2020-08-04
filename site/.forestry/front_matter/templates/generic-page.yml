@@ -9,3 +9,4 @@ fields:
   label: Title
 pages:
 - site/content/bio.md
+- site/content/music.md
