@@ -1,0 +1,26 @@
+@mixin bp-up-sm() {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+@mixin bp-up-md() {
+  @media (min-width: 767px) {
+    @content;
+  }
+}
+@mixin bp-up-lg() {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+@mixin bp-up-xl() {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin bp-up($bp) {
+  @media (min-width: #{map-get($breakpoints, $bp)}) {
+    @content;
+  }
+}

@@ -1,0 +1,47 @@
+$grid-spacing: 1.25rem;
+
+$nav-width: 10.9375rem;
+$secondary-nav-height: 3.75rem;
+$product-nav-height: 4.8125rem;
+
+/** ---- Colors ----
+    Do your part to keep this file in sync! If you ADD/REMOVE any colors, update page-design-system.scss and page-design-system.js so our reference documentation is current.
+**/
+$clr-bg: #e3e3e3;
+$clr-txt-standard: #112558;
+
+/** ---- Responsive Breakpoints ----
+    We on that desktop life like it's 1999. 
+**/
+$breakpoints: (
+  sm: 480px,
+  md: 767px,
+  lg: 980px,
+  xl: 1024px,
+  xxl: 1280px,
+  xxxl: 1440px,
+);
+
+//Content max-widths.
+$max-widths: (
+  sm: 100%,
+  md: 767px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 2200px,
+);
+
+/** ---- Vertical Spacing ---- **/
+$vertical-spacing: (
+  xs: 0.75rem,
+  sm: 1.5rem,
+  md: 2.25rem,
+  lg: 3.75rem,
+  xl: 5.25rem,
+  xxl: 9.75rem,
+);
+
+@mixin big-drop-shadow {
+  box-shadow: 0 5px 20px 5px rgba(104, 76, 76, 0.25);
+}

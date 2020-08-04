@@ -1,0 +1,24 @@
+/*
+  You can use import statements to include partials:
+ */
+@import "imports/reset.css";
+@import "partials/nav";
+/*
+  Or add your statements here:
+ */
+body {
+  font-size: calc(10px + 1vmin);
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $clr-bg;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 32px;
+}

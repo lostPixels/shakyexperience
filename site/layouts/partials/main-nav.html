@@ -1,0 +1,24 @@
+<nav role="navigation" class="main-nav">
+  <div class="main-nav__container">
+    <div class="main-nav__logo__wrap">
+      <a href="/" class="main-nav__logo" title="Visit the Shaky Experience Homepage">
+        <img class="main-nav__logo__img" src="logo.svg" alt="" />
+      </a>
+    </div>
+    <div class="main-nav__links-wrap">
+      <ul class="main-nav__links">
+        {{ range .Site.Menus.main }}
+        <li class="main-nav__links__item-wrap">
+          <a class="main-nav__links__item" href="{{ .URL }}" title="Visit the Shaky Experience {{ .Name }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  <button type="menu" class="main-nav__mobile-btn js-toggles-mobile-nav">
+    <img class="main-nav__logo__img" src="hamburger.svg" alt="" />
+  </button>
+  <div class="main-nav__backdrop js-toggles-mobile-nav"></div>
+</nav>

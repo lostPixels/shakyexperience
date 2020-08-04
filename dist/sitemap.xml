@@ -9,14 +9,24 @@
   
   <url>
     <loc>/podcasts/</loc>
-  </url>
-  
-  <url>
-    <loc>/podcasts/test-podcast/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bio/</loc>
+  </url>
+  
+  <url>
+    <loc>/music/</loc>
+  </url>
+  
+  <url>
+    <loc>/podcasts/test-podcast/</loc>
   </url>
   
 </urlset>

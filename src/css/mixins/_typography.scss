@@ -1,0 +1,41 @@
+@import "../variables";
+@mixin pop-font {
+  font-family: "Lilita One", cursive;
+}
+
+@mixin headline-1 {
+  @include pop-font();
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: $clr-content-20;
+  padding-bottom: 0.3rem;
+  margin-bottom: map-get($vertical-spacing, lg);
+  border-bottom: 1px solid $clr-card-border;
+}
+
+@mixin headline-2 {
+  @include pop-font();
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $clr-content-20;
+  padding-bottom: 0.3rem;
+  margin-bottom: map-get($vertical-spacing, md);
+  border-bottom: 1px solid $clr-card-border;
+}
+
+@mixin text-standard {
+  line-height: 1.375;
+  color: $clr-content-20;
+}
+
+@mixin text-secondary {
+  font-size: 0.875rem;
+  line-height: 1.375;
+  color: $clr-content-20;
+}
+
+@mixin text-tertiary {
+  font-size: 0.875rem;
+  line-height: 1.375;
+  color: $clr-content-40;
+}
