@@ -1,4 +1,37 @@
 ---
 label: podcast
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: episode_number
+  type: number
+  label: Episode Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
+- name: soundcloud_url
+  type: text
+  config:
+    required: false
+  label: Soundcloud URL
+- name: length
+  type: text
+  config:
+    required: false
+  label: Length
+- name: featured_on_homepage
+  type: boolean
+  label: Featured on Homepage?
