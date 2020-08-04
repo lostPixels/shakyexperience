@@ -35,3 +35,5 @@ fields:
 - name: featured_on_homepage
   type: boolean
   label: Featured on Homepage?
+pages:
+- podcasts/test-podcast.md
