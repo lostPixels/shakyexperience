@@ -1,7 +1,1 @@
-{{ define "main" }} {{ range first 1 (where .Site.RegularPages ".Section" "podcasts") }}
-
-<span>NEW PODCAST EPISODE {{.PublishDate}}</span>
-<h1>{{.Title}}</h1>
-<p>{{.Summary}}</p>
-<a href="{{.Permalink}}" title="{{.LinkTitle}}">Listen Now</a>
-{{ end }} {{ end }}
+{{ define "main" }} {{ partial "featured-podcast" . }} {{ end }}

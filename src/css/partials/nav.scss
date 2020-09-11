@@ -70,10 +70,11 @@ $nav-height: 3.5rem;
 
     @include bp-up(lg) {
       display: flex;
+      align-items: center;
       position: static;
       min-width: inherit;
       height: inherit;
-      align-items: center;
+      justify-content: center;
       padding-top: inherit;
     }
   }

@@ -1,0 +1,15 @@
+{{ range first 1 (where .Site.RegularPages ".Section" "podcasts") }}
+<figure class="featured-podcast-block">
+    <div class="featured-podcast-block__img-wrap">
+        <img src="{{.Params.hero_image}}" />
+    </div>
+
+    <figcaption>
+        <span>NEW PODCAST EPISODE {{.PublishDate}}</span>
+        <h1>{{.Title}}</h1>
+        <p>{{.Summary}}</p>
+        <a href="{{.Permalink}}" title="{{.LinkTitle}}">Listen Now</a>
+    </figcaption>
+</figure>
+
+{{end}}
