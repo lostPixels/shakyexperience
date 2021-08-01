@@ -1,0 +1,60 @@
+<p><a href="https://app.netlify.com/sites/fernfolio/deploys"><img src="https://api.netlify.com/api/v1/badges/5702ba89-7242-490e-b04d-e4a691faced5/deploy-status" alt="Netlify Status"></a></p>
+<h1>Fernfolio</h1>
+<p>The super simple portfolio template built with <a href="https://www.11ty.io/">Eleventy</a> and <a href="https://www.netlifycms.org/">Netlify CMS</a></p>
+<img width="1280" alt="fernfolio screenshot" src="https://raw.githubusercontent.com/TylerMRoderick/fernfolio-11ty-template/master/fernfolio-preview.png">
+<h3><pre>🖥  <a href="https://fernfolio.netlify.app/">Demo</a></pre></h3>
+<h2>🤔 What is this?</h2>
+<p>An <a href="https://www.11ty.io/">Eleventy</a> theme designed to simplify the process of deploying a beautiful portfolio and blog. Launch your site in minutes!</p>
+<p>Based on the <a href="https://github.com/danurbanowicz/eleventy-netlify-boilerplate">eleventy-netlify-boilerplate</a>, but modified to perfectly fit the needs of a modern technical porfolio.</p>
+<h2>✨ Features</h2>
+<ul>
+<li>Built in support for <a href="https://www.netlifycms.org/">Netlify CMS</a> with editor previews</li>
+<li>Customizable blog and project pages with tag support</li>
+<li>Working contact form powered by <a href="https://www.netlify.com/products/forms/">Netlify Forms</a></li>
+<li>Super fast page render and high lighthouse scores</li>
+<li>Uses Markdown for content files and Nunjucks for layouts</li>
+<li>100% Javascript framework free</li>
+<li>Continuous Deployment workflow via <a href="https://www.netlify.com/">Netlify</a></li>
+<li>Base styles powered by <a href="https://github.com/oxalorg/sakura">Sakura</a> classless css framework</li>
+<li>Vanilla css for custom styles (keep it simple)</li>
+</ul>
+<h2>🚀 Quick Start</h2>
+<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/TylerMRoderick/fernfolio-11ty-template&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a></p>
+<h3>1. Click the &quot;Deploy to Netlify&quot; button above</h3>
+<p>This will clone this repo to your github account and will deploy a copy of the demo website to your Netlify
+account (you can create an account during this process if you don't have one)</p>
+<h3>2. Setup authentication</h3>
+<p>After deploying this project, Netlify Identity will add you as a CMS user and
+will email you an invite. Hit the &quot;Accept the invite&quot; link and this should take you to the deployed site. From there, you can add your password to finish user setup.</p>
+<h3>3. Edit some content</h3>
+<p>Now that you are added as a CMS user, add <code>/admin</code> to the end of your site url, and log in using your new credentials. You should now see the content editor interface. Now you can start editing content! Any changes to your new repo will auto-deploy a new version to netflify. Cool huh?</p>
+<h3>4. Setup local environment</h3>
+<ul>
+<li>Clone the repo locally <code>git clone https://github.com/TylerMRoderick/fernfolio-11ty-template.git</code></li>
+<li>Navigate to root folder <code>cd your-site</code></li>
+<li>Install the goods <code>npm install</code></li>
+<li>Run it <code>npm start</code></li>
+<li>You should now be able to see everything running on localhost:8080</li>
+<li>Add some changes (view <a href="https://fernfolio.netlify.app/posts/theme-customizations/">theme customizations</a> for some options)</li>
+<li>Push your changes to github and an auto-deploy should be triggered</li>
+</ul>
+<h2>💻 Development Scripts</h2>
+<p><strong><code>npm start</code></strong></p>
+<blockquote>
+<p>Run 11ty with hot reload at localhost:8080</p>
+</blockquote>
+<p><strong><code>npm run build</code></strong></p>
+<blockquote>
+<p>Generate minified production build</p>
+</blockquote>
+<p>Use this as the &quot;Publish command&quot; if needed by hosting such as Netlify.</p>
+<p>Checkout the Eleventy <a href="https://www.11ty.dev/docs/usage/">Command Line Usage docs</a> for more options</p>
+<h2>🎩 Common issues</h2>
+<p>If you change the repo that was created at deploy time from public to private, you'll need to regenerate your token,
+as the token generated using the deploy to Netlify button can only access public repositories. To
+regenerate your token, head to &quot;Settings&quot; in your Netlify site dashboard, go to the &quot;Identity&quot;
+section, then scroll to &quot;Services&quot; where you'll see an &quot;Edit settings&quot; button. Click that and you'll
+see a text link to &quot;Generate access token in GitHub&quot;.</p>
+<p>If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the <a href="https://gitter.im/netlify/netlifycms">Netlify CMS Gitter</a>.</p>
+<h2>Bug reports, feature requests, etc</h2>
+<p>This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR or issue.</p>
