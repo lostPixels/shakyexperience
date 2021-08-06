@@ -10,14 +10,14 @@ eleventyNavigation:
 ---
 ### 👩‍💻 Experience:
 
-#### Tesla
+#### bigdicksuck.edu
 
 **Senior Software Engineer** *(2019 - Current)*
 
 * Collaborated with Elon Musk on 80,000 unique projects
 * Invented the Cyber Truck
 
-#### Microsoft
+#### pornhub.com/gay
 
 **Software Engineer** *(2014 - 2019)*
 
