@@ -3,7 +3,7 @@ title: Podcast
 date: 2021-08-08T16:20:25.538Z
 permalink: Podcast
 eleventyNavigation:
-  order: 0
+  order: 4
   key: Podcast
 ---
 The Shaky Experience podcast educates and inspires listeners through unique and exciting conversations on the past, present, and future of artists, entrepreneurs, business owners, and everyday people.
